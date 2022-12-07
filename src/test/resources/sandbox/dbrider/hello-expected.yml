@@ -1,0 +1,5 @@
+test_table:
+  - id: 1
+    value: hello
+  - id: 2
+    value: WORLD

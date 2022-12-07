@@ -1,0 +1,22 @@
+plugins {
+    id "java"
+}
+
+sourceCompatibility = 17
+targetCompatibility = 17
+
+[compileJava, compileTestJava]*.options*.encoding = "UTF-8"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation "com.github.database-rider:rider-junit5:1.35.0"
+    testImplementation "org.junit.jupiter:junit-jupiter:5.9.1"
+    testRuntimeOnly "org.hsqldb:hsqldb:2.7.1"
+}
+
+test {
+    useJUnitPlatform()
+}

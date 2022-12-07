@@ -1,0 +1,4 @@
+connectionConfig:
+  url: "jdbc:hsqldb:mem:test"
+  user: "sa"
+  password: ""
