@@ -1,0 +1,4 @@
+foo_table:
+  - id: 1
+    value: FOO
+    unknown_column: unknown
