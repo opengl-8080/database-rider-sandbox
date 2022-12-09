@@ -1,0 +1,5 @@
+test_table:
+  - id: 3
+    value: three
+  - id: 2
+    value: two
