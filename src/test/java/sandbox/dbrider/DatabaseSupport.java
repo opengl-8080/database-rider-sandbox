@@ -29,4 +29,8 @@ public class DatabaseSupport implements BeforeAllCallback, AfterAllCallback {
             throw new RuntimeException(e);
         }
     }
+
+    public Connection getConnection() {
+        return connection;
+    }
 }

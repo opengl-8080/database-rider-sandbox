@@ -1,0 +1,7 @@
+hoge_table:
+  - id: 9
+    value: HOGE
+fuga_table:
+piyo_table:
+  - id: 1
+    value: piyo

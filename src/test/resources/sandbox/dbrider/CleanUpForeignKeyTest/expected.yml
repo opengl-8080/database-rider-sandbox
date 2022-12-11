@@ -1,0 +1,7 @@
+parent_table:
+  - id: 9
+    value: hoge
+child_table:
+  - id: 9
+    value: fuga
+grand_child_table:

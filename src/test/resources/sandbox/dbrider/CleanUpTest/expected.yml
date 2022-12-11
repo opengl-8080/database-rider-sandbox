@@ -1,0 +1,6 @@
+foo_table:
+  - id: 3
+    value: FOO
+bar_table:
+  - id: 1
+    value: bar
