@@ -1,0 +1,7 @@
+foo_table:
+  - &template
+    id: 1
+    value: foo
+bar_table:
+  - value: bar
+    <<: *template
