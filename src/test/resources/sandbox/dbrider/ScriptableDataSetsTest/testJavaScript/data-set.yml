@@ -1,0 +1,3 @@
+foo_table:
+  - id: 1
+    value: "js:(5+5)*10/2"
