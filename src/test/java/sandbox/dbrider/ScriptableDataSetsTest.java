@@ -26,4 +26,9 @@ public class ScriptableDataSetsTest {
     @DataSet("sandbox/dbrider/ScriptableDataSetsTest/testGroovy/data-set.yml")
     @ExpectedDataSet("sandbox/dbrider/ScriptableDataSetsTest/testGroovy/expected.yml")
     void testGroovy() {}
+
+    @Test
+    @DataSet("sandbox/dbrider/ScriptableDataSetsTest/testWithExpectedDataSet/data-set.yml")
+    @ExpectedDataSet("sandbox/dbrider/ScriptableDataSetsTest/testWithExpectedDataSet/expected.yml")
+    void testWithExpectedDataSet() {}
 }
