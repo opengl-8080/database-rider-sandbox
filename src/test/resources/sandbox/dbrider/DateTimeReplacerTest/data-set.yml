@@ -1,0 +1,19 @@
+foo_table:
+  - id: 1
+    date_value: "[DAY,NOW]"
+  - id: 2
+    date_value: "[DAY,YESTERDAY]"
+  - id: 3
+    date_value: "[DAY,WEEK_AFTER]"
+  - id: 4
+    date_value: "[MIN,NOW]"
+  - id: 5
+    date_value: "[MIN,PLUS_ONE]"
+  - id: 6
+    date_value: "[MIN,MINUS_30]"
+  - id: 7
+    date_value: "[SEC,NOW]"
+  - id: 8
+    date_value: "[SEC,MINUS_ONE]"
+  - id: 9
+    date_value: "[SEC,PLUS_TEN]"
