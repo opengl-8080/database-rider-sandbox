@@ -2,3 +2,7 @@ connectionConfig:
   url: "jdbc:hsqldb:mem:test"
   user: "sa"
   password: ""
+#properties:
+#  replacers:
+#    - !!com.github.database.rider.core.replacers.IncludeReplacer {}
+#    - !!com.github.database.rider.core.replacers.UnixTimestampReplacer {}
