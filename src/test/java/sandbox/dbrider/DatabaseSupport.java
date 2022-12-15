@@ -45,7 +45,10 @@ public class DatabaseSupport implements BeforeAllCallback, AfterAllCallback {
                 Map<String, Object> record = new HashMap<>();
                 for (int i=1; i<=metaData.getColumnCount(); i++) {
                     final String columnName = metaData.getColumnName(i);
-                    final Object value = rs.getObject(i);
+                    Object value = rs.getObject(i);
+                    if (value instanceof String) {
+                        value = "\"" + value + "\"";
+                    }
                     record.put(columnName, value);
                 }
                 System.out.println(record);

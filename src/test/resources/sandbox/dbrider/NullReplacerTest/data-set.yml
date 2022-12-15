@@ -1,0 +1,7 @@
+foo_table:
+  - id: 1
+    value: null
+  - id: 2
+    value: "null"
+  - id: 3
+    value: "[null]"
