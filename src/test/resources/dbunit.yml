@@ -4,5 +4,8 @@ connectionConfig:
   password: ""
 #properties:
 #  replacers:
+#    - !!sandbox.dbrider.CustomReplacer {}
+#properties:
+#  replacers:
 #    - !!com.github.database.rider.core.replacers.IncludeReplacer {}
 #    - !!com.github.database.rider.core.replacers.UnixTimestampReplacer {}
