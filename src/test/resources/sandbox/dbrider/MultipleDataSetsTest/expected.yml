@@ -1,0 +1,11 @@
+hoge_table:
+  - id: 1
+    value: from data-set1.yml
+  - id: 2
+    value: from data-set2.yml
+fuga_table:
+  - id: 1
+    value: from data-set2.yml
+piyo_table:
+  - id: 9
+    value: default value

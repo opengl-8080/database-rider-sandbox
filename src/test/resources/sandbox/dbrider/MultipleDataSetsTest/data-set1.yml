@@ -1,0 +1,3 @@
+hoge_table:
+  - id: 1
+    value: from data-set1.yml

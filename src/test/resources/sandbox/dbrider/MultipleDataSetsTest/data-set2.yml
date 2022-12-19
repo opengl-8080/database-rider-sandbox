@@ -1,0 +1,6 @@
+hoge_table:
+  - id: 2
+    value: from data-set2.yml
+fuga_table:
+  - id: 1
+    value: from data-set2.yml
