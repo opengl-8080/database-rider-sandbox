@@ -1,0 +1,7 @@
+foo_table:
+  - id: 3
+    value: THREE
+  - id: 1
+    value: ONE
+  - id: 2
+    value: TWO
