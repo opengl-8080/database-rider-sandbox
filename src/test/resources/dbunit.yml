@@ -2,6 +2,9 @@ connectionConfig:
   url: "jdbc:hsqldb:mem:test"
   user: "sa"
   password: ""
+properties:
+  batchedStatements: false
+  batchSize: 10
 #properties:
 #  replacers:
 #    - !!sandbox.dbrider.CustomReplacer {}
