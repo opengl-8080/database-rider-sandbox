@@ -1,3 +1,5 @@
+#mergeDataSets: true
+#mergingStrategy: CLASS
 connectionConfig:
   url: "jdbc:hsqldb:mem:test"
   user: "sa"

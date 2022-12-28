@@ -7,9 +7,8 @@
         </encoder>
     </appender>
 
-    <logger name="org.dbunit.database.statement" level="debug">
-
-    </logger>
+<!--    <logger name="org.dbunit.database.statement" level="debug">-->
+<!--    </logger>-->
 
     <root level="error">
         <appender-ref ref="STDOUT" />
