@@ -1,5 +1,6 @@
-mergeDataSets: true
+#mergeDataSets: true
 #mergingStrategy: CLASS
+leakHunter: true
 connectionConfig:
   url: "jdbc:hsqldb:mem:test"
   user: "sa"
