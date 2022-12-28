@@ -14,11 +14,20 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class DatabaseSupport implements BeforeAllCallback, AfterAllCallback {
+    private final String url;
     private Connection connection;
+
+    public DatabaseSupport() {
+        this("jdbc:hsqldb:mem:test");
+    }
+
+    public DatabaseSupport(String url) {
+        this.url = url;
+    }
 
     @Override
     public void beforeAll(ExtensionContext context) throws Exception {
-        connection = DriverManager.getConnection("jdbc:hsqldb:mem:test", "sa", "");
+        connection = DriverManager.getConnection(url, "sa", "");
     }
 
     @Override
