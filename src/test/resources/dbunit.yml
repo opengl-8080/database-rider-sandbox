@@ -5,6 +5,9 @@ connectionConfig:
 properties:
   batchedStatements: false
   batchSize: 10
+  tableType:
+    - TABLE
+    - VIEW
 #properties:
 #  replacers:
 #    - !!sandbox.dbrider.CustomReplacer {}

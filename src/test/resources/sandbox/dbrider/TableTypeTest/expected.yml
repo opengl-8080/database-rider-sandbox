@@ -1,0 +1,5 @@
+foo_view:
+  - id: 1
+    value: foo
+  - id: 2
+    value: bar
