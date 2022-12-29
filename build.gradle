@@ -1,5 +1,7 @@
 plugins {
     id "java"
+    id 'org.springframework.boot' version '2.7.7'
+    id 'io.spring.dependency-management' version '1.0.15.RELEASE'
 }
 
 sourceCompatibility = 17
@@ -7,14 +9,21 @@ targetCompatibility = 17
 
 [compileJava, compileTestJava]*.options*.encoding = "UTF-8"
 
+ext {
+    dbriderVersion = "1.35.0"
+}
+
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    testImplementation "com.github.database-rider:rider-junit5:1.35.0"
+    implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation "com.github.database-rider:rider-junit5:${dbriderVersion}"
+    testImplementation "com.github.database-rider:rider-spring:${dbriderVersion}"
     testImplementation "org.junit.jupiter:junit-jupiter:5.9.1"
-    testRuntimeOnly "org.hsqldb:hsqldb:2.7.1"
+    runtimeOnly "org.hsqldb:hsqldb:2.7.1"
     testRuntimeOnly "org.codehaus.groovy:groovy-all:2.4.6"
     testRuntimeOnly "ch.qos.logback:logback-classic:1.4.5"
 }

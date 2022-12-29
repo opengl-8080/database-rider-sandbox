@@ -1,10 +1,10 @@
 #mergeDataSets: true
 #mergingStrategy: CLASS
-leakHunter: true
-connectionConfig:
-  url: "jdbc:hsqldb:mem:test"
-  user: "sa"
-  password: ""
+#leakHunter: true
+#connectionConfig:
+#  url: "jdbc:hsqldb:mem:test"
+#  user: "sa"
+#  password: ""
 properties:
   batchedStatements: false
   batchSize: 10
